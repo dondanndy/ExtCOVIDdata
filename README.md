@@ -1,6 +1,6 @@
 # Datos de COVID en Extremadura
 
-[*You can read this README in English by clicking in this link.*](https://github.com/dondanndy/ExtCOVIDdata/blob/main/README_EN.md)
+[*You can read this README in English by clicking on this link.*](https://github.com/dondanndy/ExtCOVIDdata/blob/main/README_EN.md)
 
 En este repositorio se recogen los datos de casos de COVID proporcionados por al Junta de Extremadura para cada núcleo de población.
 
