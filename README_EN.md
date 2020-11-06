@@ -27,7 +27,7 @@ It is important to highlight that these are not values per municipality, but per
 This file is conceived with the structure of a DataFrame, present in several libraries for different programming languages.
 
 Its structure contains the following values:
-| Value  | Concept |
+| Value  | Description |
 |:-:|:-:|
 | day | Day which the data is referring to. The regional government reports the cases from the previous day, so that date is also used here. For example, the data reported on October 2nd appears with `2020-10-01`.  |
 | location  | Population unit, with the name given by INE. |

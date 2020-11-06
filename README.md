@@ -29,7 +29,7 @@ Es importante destacar que no se trata de valores por municipios, sino por unida
 Dicho archivo está concebido con la estructura de un DataFrame, presente en varias librerías para diversos lenguajes de programación.
 
 Sus valores son:
-| Valor  | Concepto |
+| Valor  | Descripción |
 |:-:|:-:|
 | day | Día para el que figuran los datos. En los informes de la Junta se publican los casos notificados el día previo, así que se indica de la misma manera en el archivo de datos. Por ejemplo, los datos proporcionados el 2 de octubre aparecen con la fecha `2020-10-01`.  |
 | location  | Unidad poblacional referida, con el nombre dado por el INE.  |
@@ -45,6 +45,6 @@ Además, los datos de incidencia acumulada también tomarán ese valor en el cas
 
 # Licencia
 
-Los datos originales han sido hechos públicos por la Junta de Extremadura y el Instituto Nacional de Estadística.
+Los datos originales han sido publicados por la Junta de Extremadura y el Instituto Nacional de Estadística.
 
 El trabajo posterior realizado sobre ellos queda en el dominio público.
