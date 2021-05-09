@@ -16,7 +16,7 @@ Cabe destacar que los archivos en `pdf` proporcionados por la Junta contienen un
 
 En los archivos `csv` se han intentado corregir todos estos errores en la medida de lo posible, para también facilitar la automatización de su análisis.
 
-Por último en la carpeta `munDATA` figuran los datos de población de las unidades poblacionales de Extremadura, extraídos de datos del [Instituto Nacional de Estadística (INE)](https://www.ine.es/nomen2/index.do) del 2019, fecha más actualizada.
+Por último en la carpeta `munDATA` figuran los datos de población de las unidades poblacionales de Extremadura, extraídos de datos del [Instituto Nacional de Estadística (INE)](https://www.ine.es/nomen2/index.do) del 2019 y 2020 (ver nota al final).
 
 Además de los datos proporcionados por el INE, también figura, en la provicia de Cáceres, la población de [Valdelamantanza](https://es.wikipedia.org/wiki/Valdelamatanza). Aunque pertenezca a la provincia de Salamanca, la Junta la incluye en los informes por tener un acuerdo en materia de salud.
 
@@ -35,13 +35,27 @@ Sus valores son:
 | location  | Unidad poblacional referida, con el nombre dado por el INE.  |
 | cases  | Casos notificados el día indicado.  |
 | cases7  | Suma de los casos notificados los 7 días anteriores, incluyendo el día indicado.  |
-| IA7  | Incidencia acumulada de 7 días, es decir, la suma de los casos de los 7 días anteriores al indicado por 100.000 habitantes.  |
+| IA7  | Incidencia acumulada de 7 días, es decir, la suma de los casos de los 7 días anteriores al indicado por 100.000 habitantes con los datos de 2019.  |
+| IA7_2020  | Incidencia acumulada de 7 días, es decir, la suma de los casos de los 7 días anteriores al indicado por 100.000 habitantes con los datos de 2020.  |
 | cases14  | Suma de los casos notificados los 14 días anteriores, incluyendo el día indicado.  |
-| IA14  | Incidencia acumulada de 14 días, es decir, la suma de los casos de los 14 días anteriores al indicado por 100.000 habitantes.  |
+| IA14  | Incidencia acumulada de 14 días, es decir, la suma de los casos de los 14 días anteriores al indicado por 100.000 habitantes con los datos de 2019.   |
+| IA14_2020  | Incidencia acumulada de 14 días, es decir, la suma de los casos de los 14 días anteriores al indicado por 100.000 habitantes con los datos de 2020.   |
 
 Los valores de casos e incidencia acumulada toman el valor de `-1` los primeros días de la serie, donde no hay datos durante el suficiente número de días para obtenerlos.
 
+Los valores de la serie con datos actualizados también tienen el valor de `-1` para los días anteriores al 1 de enero de 2021.
+
 Además, los datos de incidencia acumulada también tomarán ese valor en el caso de la unidad de población de Monfragüe, que la Junta indica en uno de los reportes pero para la que no figuran datos de población.
+
+# Series de 2019 y 2020
+
+Los datos recogidos parten de septiembre de 2020, cuando se usaron los datos de población del INE del 1 de enero de 2020, los más actualizados por entonces.
+
+A principios de año el INE publicó los datos actualizados a 1 de enero de 2021, que también se recogen en el repositorio y en el archivo de datos.
+
+Para respetar la serie completa, se incluyen para todos los días disponibles la incidencia normalizada con los datos de ambos años, tal y como se indica en la tabla de la sección anterior.
+
+Este cambio se produjo a partir del 9 de mayo de 2021, por lo que los _commits_ anteriores no incluyen los datos actualizados.
 
 # Licencia
 
